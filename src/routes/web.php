@@ -3,5 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    // O caminho é: partials > site > home
+    return view('partials.site.home'); 
+    
 });
+
