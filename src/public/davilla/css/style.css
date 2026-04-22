@@ -2072,14 +2072,14 @@ hr{
 	position: relative;
 	float: left;
 	text-align: right;
-	padding-right: 103px;
+	padding-right: 14%;
 }
 
 .main-menu .menu-right{
 	position: relative;
 	float: right;
 	text-align: left;
-	padding-left: 103px;
+	padding-left: 10%;
 }
 
 .main-menu .navigation > li{
@@ -3489,7 +3489,7 @@ hr{
 	display: inline-block;
 	height: 39px;
 	width: 82px;
-	background-image: url(../images/icons/icon-devider.png);
+	background-image:  url(../images/capa.webp);
 	background-size: 100%;
 }
 
@@ -4377,7 +4377,7 @@ hr{
 	display: inline-block;
 	height: 39px;
 	width: 82px;
-	background-image: url(../images/icons/icon-devider-light.png);
+	background-image: url(..images/capa.webp);
 	background-size: 100%;
 }
 
@@ -4593,7 +4593,7 @@ hr{
 .call-to-action .icon_heart{
 	width: 88px;
 	height: 83px;
-	background-image: url(../images/icons/icon_heart.png);
+	background-image:  url(..images/capa.webp);
 }
 
 .call-to-action h1{
@@ -5335,7 +5335,7 @@ hr{
 	top: 0;
 	width: 24px;
 	height: 24px;
-	background-image: url(../images/icons/filter_before.png);
+	background-image:  url(..images/capa.webp);
 	background-repeat: no-repeat;
 	background-position: center;
 	content: "";
@@ -9384,7 +9384,7 @@ iframe#gmap_canvas {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/icons/widget_before.jpg);
+    background-image:  url(../images/capa.webp);
     position: absolute;
     top: -20px;
     left: 50%;
@@ -9393,7 +9393,7 @@ iframe#gmap_canvas {
 
 .sidebar-widget:not(.search-widget):after{
     content: '';
-    background-image: url(../images/icons/widget_after.jpg);
+    background-image: url(../images/capa.webp);
     width: 26px;
     height: 25px;
     display: inline-block;

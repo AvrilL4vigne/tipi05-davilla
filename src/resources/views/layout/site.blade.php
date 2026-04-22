@@ -14,22 +14,7 @@
         @include('partials.header')
 
         <main>
-            @yield('content')
-
-            @include('partials.slider')
-
-            @include('partials.services')
-
-            @include('partials.action')
-
-            @include('partials.portifolio')
-
-            @include('partials.features')
-
-            @include('partials.testimonials')
-
-            @include('partials.pricing')
-
+            @yield('content')          
         </main>
 
         @include('partials.footer')

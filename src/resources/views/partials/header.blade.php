@@ -6,7 +6,12 @@
         <!-- Main box -->
         <div class="main-box">
             <div class="menu-box">
-                <div class="logo"><a href="index.html"> <img src="{{ asset('davilla/images/logo.png') }}" alt="" title=""></a></div>
+                <div class="logo">
+    <a href="index.html">
+        <img src="{{ asset('davilla/images/logo-davilla.svg') }}" width="100px" height="100px" alt="Logo Davilla">
+
+    </a>
+</div>
 
                 <!--Nav Box-->
                 <div class="nav-outer clearfix">
