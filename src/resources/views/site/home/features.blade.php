@@ -1,4 +1,10 @@
- <!-- Features Section -->
+@extends('layout.site')
+
+@section('content')
+
+
+
+<!-- Features Section -->
     <div class="features-section">
         <div class="shape_wrapper shape_one">
             <div class="shape_inner shape_two" style="background-image: url(https://via.placeholder.com/1920x1080);"><div class="overlay"></div></div>
@@ -73,3 +79,5 @@
         </div>
     </div>
     <!-- End Features Section -->
+
+        @endsection

@@ -6,8 +6,9 @@ use Illuminate\Http\Request;
 
 class ServicesController extends Controller
 {
-    public function Services()
+    public function services()
 {
-    return view("site.home.Services");
+    return view("site.home.services.services");
 }
 }
+

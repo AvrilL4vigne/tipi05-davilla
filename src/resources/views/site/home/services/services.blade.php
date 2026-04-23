@@ -1,4 +1,9 @@
- <!-- Services Section -->
+@extends('layout.site')
+
+@section('content')
+
+
+<!-- Services Section -->
     <section class="services-section" style="background-image: url(https://via.placeholder.com/1920x1080);">
         <div class="auto-container">
 
@@ -141,3 +146,5 @@
         </div>
     </section>
     <!--End Services Section -->
+
+        @endsection
