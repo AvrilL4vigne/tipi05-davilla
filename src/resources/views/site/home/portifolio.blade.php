@@ -1,7 +1,4 @@
-@extends('layout.site')
 
-@section('content')
- 
     <!-- Portfolio Sections -->
     <section class="portfolio-section">
         <div class="auto-container">
@@ -144,5 +141,3 @@
     <!--End Projects Sections -->
 
 
-    
-    @endsection

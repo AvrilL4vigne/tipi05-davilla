@@ -1,7 +1,3 @@
-@extends('layout.site')
-
-@section('content')
-
 
     <!-- Recipes Section  -->
     <section class="recipes-section" style="background-image: url(https://via.placeholder.com/1920x1080);">
@@ -30,6 +26,3 @@
             </div>
         </div>
     </section>
-    <!-- End Recipes Section  -->
-
-@endsection

@@ -1,7 +1,3 @@
-@extends('layout.site')
-
-@section('content')
-
 
     <!-- Pricing Section -->
     <section class="pricing-section">
@@ -162,4 +158,3 @@
     </section>
     <!--End Pricing Section -->
 
-@endsection

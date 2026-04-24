@@ -8,7 +8,7 @@ class ServicesController extends Controller
 {
     public function services()
 {
-    return view("site.home.services.services");
+    return view("site.home.services");
 }
 }
 

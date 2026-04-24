@@ -1,6 +1,4 @@
-@extends('layout.site')
 
-@section('content')
 
 {{-- Bloco de Estilos mantido integralmente para não perder a formatação --}}
 <style>
@@ -92,4 +90,3 @@
     </div>
 </div>
 
-@endsection

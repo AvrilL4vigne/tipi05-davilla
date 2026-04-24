@@ -1,9 +1,4 @@
-    @extends('layout.site')
 
-@section('content')
-
-    
-    
     <!--Main Slider-->
     <section class="main-slider">
         <div class="slider_wave"></div>
@@ -399,4 +394,3 @@
     <!--End Main Slider-->
 
 
-    @endsection

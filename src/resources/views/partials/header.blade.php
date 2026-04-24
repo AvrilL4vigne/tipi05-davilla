@@ -46,8 +46,8 @@
                                 <a href="{{ route('pricing') }}">Preços</a>
                             </li>
 
-                            <li class="{{ Route::is('portfolioo') ? 'current' : '' }}">
-                                <a href="{{ route('portfolioo') }}">Portfólio</a>
+                            <li class="{{ Route::is('portfolio') ? 'current' : '' }}">
+                                <a href="{{ route('portfolio') }}">Portfólio</a>
                             </li>
 
                             <li class="{{ Route::is('testimonials') ? 'current' : '' }}">

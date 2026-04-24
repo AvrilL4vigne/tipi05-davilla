@@ -1,6 +1,3 @@
-@extends('layout.site')
-
-@section('content')
 
 
     <!-- Call to Action -->
@@ -33,6 +30,3 @@
         </div>
     </section>
     <!--End Call to Action -->
-
-
-@endsection

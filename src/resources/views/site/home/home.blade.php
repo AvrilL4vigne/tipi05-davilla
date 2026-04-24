@@ -3,16 +3,15 @@
 @section('content')
 
 
-   @include('site.home.slider.slider')
-
-    @include('site.home.services.services')
-    @include('site.home.action.action')
-    @include('site.home.features.features')
-    @include('site.home.pricing.pricing')
-    @include('site.home.recipes.recipes')
+   @include('site.home.slider')
+    @include('site.home.services')
+    @include('site.home.action')
+    @include('site.home.features')
+    @include('site.home.pricing')
+    @include('site.home.recipes')
 
  
-    @include('site.home.testimonials.testimonials')
+
 
  
 @endsection

@@ -1,7 +1,3 @@
-@extends('layout.site')
-
-@section('content')
-
 
 
 <!-- Features Section -->
@@ -80,4 +76,3 @@
     </div>
     <!-- End Features Section -->
 
-        @endsection

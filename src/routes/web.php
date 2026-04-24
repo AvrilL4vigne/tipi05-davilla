@@ -21,18 +21,17 @@ use App\Http\Controllers\PortifoliooController;
 |--------------------------------------------------------------------------
 */
 
-// 1. A ROTA PRINCIPAL (A que monta a Home inteira)
+// 1. A ROTA PRINCIPAL (A que monta a Home inteira)D
 Route::get("/", [HomeController::class, 'home'])->name('home');
 
 // 2. ROTAS INDIVIDUAIS (Caso você queira acessar as páginas separadamente)
 Route::get("/sobre", [SobreController::class, 'sobre'])->name('sobre');
-Route::get("/servicos", [ServicesController::class, 'services'])->name('services');
-Route::get("/precos", [PricingController::class, 'index'])->name('pricing');
-Route::get("/receitas", [RecipesController::class, 'index'])->name('recipes');
-Route::get("/depoimentos", [TestimonialsController::class, 'index'])->name('testimonials');
-Route::get('/portifolioo', [PortifoliooController::class, 'index'])->name('portfolioo');
-
-Route::get("/funcionalidades", [FeaturesController::class, 'index'])->name('features');
-Route::get("/acao", [ActionController::class, 'index'])->name('action');
-Route::get("/boas-vindas", [WelcomeController::class, 'index'])->name('welcome');
-Route::get("/destaques", [SliderController::class, 'index'])->name('slider');
+Route::get("/services", [ServicesController::class, 'services'])->name('services');
+Route::get("/pricing", [PricingController::class, 'pricing'])->name('pricing');
+Route::get("/recipes", [RecipesController::class, 'recipes'])->name('recipes');
+Route::get("/testimonials", [TestimonialsController::class, 'testimonials'])->name('testimonials');
+Route::get('/portifolio', [PortifolioController::class, 'portfolio'])->name('portfolio');
+Route::get("/features", [FeaturesController::class, 'features'])->name('features');
+Route::get("/action", [ActionController::class, 'action'])->name('action');
+Route::get("/welcome", [WelcomeController::class, 'welcome'])->name('welcome');
+Route::get("/slider", [SliderController::class, 'slider'])->name('slider');
