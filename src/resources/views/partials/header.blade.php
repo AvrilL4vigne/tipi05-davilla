@@ -46,12 +46,21 @@
                                 <a href="{{ route('pricing') }}">Preços</a>
                             </li>
 
-                            <li class="{{ Route::is('portfolio') ? 'current' : '' }}">
-                                <a href="{{ route('portfolio') }}">Portfólio</a>
-                            </li>
 
-                            <li class="{{ Route::is('testimonials') ? 'current' : '' }}">
-                                <a href="{{ route('testimonials') }}">Depoimentos</a>
+                         
+                                @forelse($lista as $linha)
+                                <li><a href="{{ route('cardapio.categoria', $linha->id_categoria) }}">{{ 
+                                $linha->nome_categoria }}
+
+                                </a></li>
+                                @Empty
+                                <li> Nenhuma Categoria </li>
+                                @endforelse
+                    
+                     
+
+
+
                             </li>
                         </ul>
                     </div>
