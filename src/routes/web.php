@@ -35,6 +35,7 @@ Route::get("/features", [FeaturesController::class, 'features'])->name('features
 Route::get("/action", [ActionController::class, 'action'])->name('action');
 Route::get("/welcome", [WelcomeController::class, 'welcome'])->name('welcome');
 Route::get("/slider", [SliderController::class, 'slider'])->name('slider');
+Route::get("/cardapio", [App\Http\Controllers\CardapioController::class, 'cardapio'])->name('cardapio');
 
 
 Route::get("/regiao/area/id", [RegiaoController::class, 'show'])->name('regiao.area');

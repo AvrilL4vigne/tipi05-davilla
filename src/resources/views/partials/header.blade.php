@@ -23,8 +23,8 @@
                                 <a href="{{ route('sobre') }}">Sobre Nós</a>
                             </li>
 
-                            <li class="{{ Route::is('services') ? 'current' : '' }}">
-                                <a href="{{ route('services') }}">Nossos Serviços</a>
+                            <li class="{{ Route::is('cardapio') ? 'current' : '' }}">
+                                <a href="{{ route('cardapio') }}">Cardapio</a>
                             </li>
 
                             <li class="{{ Route::is('recipes') ? 'current' : '' }}">
