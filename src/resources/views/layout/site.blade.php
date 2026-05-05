@@ -4,18 +4,31 @@
     @include('partials.head')
 </head>
 <body>
+ 
     <div class="page-wrapper">
+ 
         @include('partials.preloader')
+ 
         @include('partials.header')
-
+ 
         <main>
+ 
             @yield('content')
+           
         </main>
-
+ 
         @include('partials.footer')
-    </div>
-
+ 
+    </div><!-- End Page Wrapper -->
+ 
     @include('partials.script')
-    @include('partials.scroll')
+ 
+ 
+    @stack('plugins') {{-- @stack: Área reservada, vai permitir que uma página específica injete um script --}}
+ 
+    <script src="{{ asset('davilla/js/script.js') }}"></script>
+ 
+    @stack('scripts')
+   
 </body>
 </html>

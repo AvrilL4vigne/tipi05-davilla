@@ -8,6 +8,6 @@ class PortifolioController extends Controller
 {
     public function portfolio()
     {
-        return view('site.home.portiflio'); // Nome conforme sua pasta de views
+        return view('site.home.cardapio.portiflio'); // Nome conforme sua pasta de views
     }
 }

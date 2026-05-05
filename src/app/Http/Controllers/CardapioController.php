@@ -15,14 +15,24 @@ class CardapioController extends Controller
         ->orderBy('ordem_categoria')
         ->get();
  
-        //dd($filtroCategoria);
+ 
+ 
         $listaProduto = Produto::with('CategoriaProduto')
         ->where('status_produto', 'ATIVO')
-         ->orderBy('ordem_produto')
-         ->get();
+        ->orderBy('ordem_produto')
+        ->get();
  
-        return view('site.cardapio.cardapio');
+        //dd ($listaProduto);
+        return view('site.cardapio.cardapio', compact('filtroCategoria', 'listaProduto'));
+    }
+ 
+    public function showProduto($id){
+ 
+        $produto = Produto::with('CategoriaProduto')
+        ->where('status_produto', 'ATIVO')
+        ->where('slug_produto', $slug)
+        ->firstOrfail();
 
-        //, compact($filtroCategoria, $listaProduto));
+        dd($produto);
     }
 }

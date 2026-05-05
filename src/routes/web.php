@@ -37,7 +37,12 @@ Route::get("/welcome", [WelcomeController::class, 'welcome'])->name('welcome');
 Route::get("/slider", [SliderController::class, 'slider'])->name('slider');
 Route::get("/cardapio", [App\Http\Controllers\CardapioController::class, 'cardapio'])->name('cardapio');
 
-
-Route::get("/regiao/area/id", [RegiaoController::class, 'show'])->name('regiao.area');
-
-Route::get("/cardapio/area/id", [CardapioController::class, 'show'])->name('cardapio.categoria');
+ 
+ 
+Route::get('/cardapio/categoria/{id}', [CardapioController::class, 'show'])->name('cardapio.categoria');
+ 
+/** Submenu de produto */
+Route::get('/cardapio/produto/{id}', [CardapioController::class, 'showProduto'])->name('cardapio.produto');
+ 
+ 
+Route::get('/regiao/area/{id}', [RegiaoController::class, 'show'])->name('regiao.area');
