@@ -14,6 +14,7 @@ use App\Http\Controllers\SliderController;
 use App\Http\Controllers\TestimonialsController;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\PortifoliooController;
+use App\Http\Controllers\CardapioController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,14 +36,14 @@ Route::get("/features", [FeaturesController::class, 'features'])->name('features
 Route::get("/action", [ActionController::class, 'action'])->name('action');
 Route::get("/welcome", [WelcomeController::class, 'welcome'])->name('welcome');
 Route::get("/slider", [SliderController::class, 'slider'])->name('slider');
-Route::get("/cardapio", [App\Http\Controllers\CardapioController::class, 'cardapio'])->name('cardapio');
+Route::get("/cardapio", [CardapioController::class, 'cardapio'])->name('cardapio');
 
  
  
 Route::get('/cardapio/categoria/{id}', [CardapioController::class, 'show'])->name('cardapio.categoria');
  
 /** Submenu de produto */
-Route::get('/cardapio/produto/{id}', [CardapioController::class, 'showProduto'])->name('cardapio.produto');
+Route::get('/cardapio/produto/{slug}', [CardapioController::class, 'showProduto'])->name('cardapio.produto');
  
  
 Route::get('/regiao/area/{id}', [RegiaoController::class, 'show'])->name('regiao.area');
