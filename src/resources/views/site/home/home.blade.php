@@ -3,7 +3,7 @@
 @section('content')
 
 
-   @include('site.home.slider')
+   @include('site.home.banner')
     @include('site.home.services')
     @include('site.home.action')
     @include('site.home.features')

@@ -15,6 +15,7 @@ use App\Http\Controllers\TestimonialsController;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\PortifoliooController;
 use App\Http\Controllers\CardapioController;
+use App\Http\Controllers\BannerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,6 +39,8 @@ Route::get("/welcome", [WelcomeController::class, 'welcome'])->name('welcome');
 Route::get("/slider", [SliderController::class, 'slider'])->name('slider');
 Route::get("/cardapio", [CardapioController::class, 'cardapio'])->name('cardapio');
 
+
+Route::get('/home/produto/{slug}', [HomeController::class, 'linkProduto'])->name('banner');
  
  
 Route::get('/cardapio/categoria/{id}', [CardapioController::class, 'show'])->name('cardapio.categoria');
@@ -47,3 +50,8 @@ Route::get('/cardapio/produto/{slug}', [CardapioController::class, 'showProduto'
  
  
 Route::get('/regiao/area/{id}', [RegiaoController::class, 'show'])->name('regiao.area');
+
+Route::get('/', [BannerController::class, 'index'])->name('home');
+
+
+

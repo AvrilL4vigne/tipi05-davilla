@@ -1,5 +1,5 @@
 
-    <!--Main Slider-->
+    <!--Main banner-->
     <section class="main-slider">
         <div class="slider_wave"></div>
         <div class="rev_slider_wrapper fullwidthbanner-container"  id="rev_slider_one_wrapper" data-source="gallery">
@@ -8,7 +8,7 @@
                     <li data-index="rs-4" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="850"  data-thumb="#"  data-delay="5999"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     
                     <!-- MAIN IMAGE -->
-                    <img src="/davilla/images/capa.webp"  alt="" title="Home Cakes"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    < src="/davilla/images/"  alt="" title="Home Cakes"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
@@ -96,7 +96,7 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[0,0,0,0]"
                         data-paddingleft="[0,0,0,0]"
-                        style="z-index: 9;"><img src="" alt="" data-ww="125px" data-hh="60px" width="125" height="60" data-no-retina> </div>
+                        style="z-index: 9;">< src="" alt="" data-ww="125px" data-hh="60px" width="125" height="60" data-no-retina> </div>
 
                     <!-- LAYER NR. 6 -->
                     <div class="tp-caption tp-resizeme hide-sm" 
@@ -113,7 +113,7 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[0,0,0,0]"
                         data-paddingleft="[0,0,0,0]"
-                        style="z-index: 10;"><img src="images/main-slider/slider_bg_3.png" alt="" data-ww="196px" data-hh="107px" width="196" height="107" data-no-retina> </div>
+                        style="z-index: 10;">< src="images/main-slider" alt="" data-ww="196px" data-hh="107px" width="196" height="107" data-no-retina> </div>
 
                         <!-- LAYER NR. 7 -->
                         <div class="tp-caption tp-resizeme hide-sm" 
@@ -130,13 +130,13 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            style="z-index: 11;"><img src="images/main-slider/slider_bg_2.png" alt="" data-ww="196px" data-hh="107px" width="196" height="107" data-no-retina></div>
+                            style="z-index: 11;">< src="images/main-slider/" alt="" data-ww="196px" data-hh="107px" width="196" height="107" data-no-retina></div>
                     </li>
 
                     <!-- SLIDE  -->
                     <li data-index="rs-5" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="850"  data-thumb=""  data-delay="5999"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="/davilla/images/banner.webp"  alt="" title="Home Cakes"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        < src="/davilla/images/banner.webp"  alt="" title="Home Cakes"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 8 -->
@@ -172,7 +172,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            style="z-index: 6;"><img src="images/main-slider/slider_bg_1.png" alt="" data-ww="654px" data-hh="654px" width="654" height="654" data-no-retina> </div>
+                            style="z-index: 6;">< src="images/main-slider/" alt="" data-ww="654px" data-hh="654px" width="654" height="654" data-no-retina> </div>
 
                         <!-- LAYER NR. 10 -->
                         <div class="tp-caption tp-resizeme" 
@@ -224,7 +224,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            style="z-index: 9;"><img src="images/main-slider/slider_bg_4.png" alt="" data-ww="125px" data-hh="60px" width="125" height="60" data-no-retina> </div>
+                            style="z-index: 9;">< src="images/main-slider/" alt="" data-ww="125px" data-hh="60px" width="125" height="60" data-no-retina> </div>
 
                         <!-- LAYER NR. 13 -->
                         <div class="tp-caption tp-resizeme hide-sm" 
@@ -241,7 +241,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            style="z-index: 10;"><img src="images/main-slider/slider_bg_3.png" alt="" data-ww="196px" data-hh="107px" width="196" height="107" data-no-retina> </div>
+                            style="z-index: 10;">< src="images/main-slider/" alt="" data-ww="196px" data-hh="107px" width="196" height="107" data-no-retina> </div>
 
                         <!-- LAYER NR. 14 -->
                         <div class="tp-caption tp-resizeme hide-sm" 
@@ -258,12 +258,12 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            style="z-index: 11;"><img src="images/main-slider/slider_bg_2.png" alt="" data-ww="196px" data-hh="107px" width="196" height="107" data-no-retina> </div>
+                            style="z-index: 11;">< src="images/main-slider/" alt="" data-ww="196px" data-hh="107px" width="196" height="107" data-no-retina> </div>
                     </li>
                     <!-- SLIDE  -->
                     <li data-index="rs-6" data-transition="right" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="850"  data-thumb=""  data-delay="5999"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="/davilla/images/capa.webp"  alt="" title="Home Cakes"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        < src="/davilla/images/capa.webp"  alt="" title="Home Cakes"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 15 -->
@@ -299,7 +299,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            style="z-index: 6;"><img src="images/main-slider/slider_bg_1.png" alt="" data-ww="654px" data-hh="654px" width="654" height="654" data-no-retina> </div>
+                            style="z-index: 6;">< src="images/main-slider" alt="" data-ww="654px" data-hh="654px" width="654" height="654" data-no-retina> </div>
 
                         <!-- LAYER NR. 17 -->
                         <div class="tp-caption   tp-resizeme" 
@@ -351,7 +351,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            style="z-index: 9;"><img src="images/main-slider/slider_bg_4.png" alt="" data-ww="125px" data-hh="60px" width="125" height="60" data-no-retina> </div>
+                            style="z-index: 9;">< src="images/main-slider" alt="" data-ww="125px" data-hh="60px" width="125" height="60" data-no-retina> </div>
 
                         <!-- LAYER NR. 20 -->
                         <div class="tp-caption tp-resizeme hide-sm" 
@@ -368,7 +368,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            style="z-index: 10;"><img src="images/main-slider/slider_bg_3.png" alt="" data-ww="196px" data-hh="107px" width="196" height="107" data-no-retina> </div>
+                            style="z-index: 10;">< src="images/main-slider" alt="" data-ww="196px" data-hh="107px" width="196" height="107" data-no-retina> </div>
 
                         <!-- LAYER NR. 21 -->
                         <div class="tp-caption tp-resizeme hide-sm" 
@@ -385,12 +385,12 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            style="z-index: 11;"><img src="images/main-slider/slider_bg_2.png" alt="" data-ww="196px" data-hh="107px" width="196" height="107" data-no-retina> </div>
+                            style="z-index: 11;">< src="images/main-slider" alt="" data-ww="196px" data-hh="107px" width="196" height="107" data-no-retina> </div>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
-    <!--End Main Slider-->
+    <!--End Main banner-->
 
 

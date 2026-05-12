@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Models\Banner; 
+use App\Models\Categoria; // Importe o model de Categoria
+use App\Models\Produto;   // Importe o model de Produto
+use Illuminate\Support\Facades\DB; 
+
+class BannerController extends Controller
+{
+    public function index()
+    {
+        // 1. Busca os Banners
+        $banners = Banner::where('status_banner', 'ATIVO')
+            ->orderBy('ordem_banner', 'asc')
+            ->get();
+
+        $filtroCategoria = Categoria::all(); 
+
+        $listaProduto = Produto::all();
+
+        return view('site.home.home', compact('banners', 'filtroCategoria', 'listaProduto'));
+    }
+}
