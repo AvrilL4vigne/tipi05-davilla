@@ -27,9 +27,7 @@
                                 <a href="<?php echo e(route('cardapio')); ?>">Cardapio</a>
                             </li>
 
-                            <li class="<?php echo e(Route::is('recipes') ? 'current' : ''); ?>">
-                                <a href="<?php echo e(route('recipes')); ?>">Receitas</a>
-                            </li>
+                       
                         </ul>
 
                         <ul class="navigation menu-right clearfix">
@@ -42,10 +40,7 @@
                                 </ul>
                             </li>
 
-                            <li class="<?php echo e(Route::is('pricing') ? 'current' : ''); ?>">
-                                <a href="<?php echo e(route('pricing')); ?>">Preços</a>
-                            </li>
-
+                     
 
                          
                                 <?php $__empty_1 = true; $__currentLoopData = $lista; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $linha): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); $__empty_1 = false; ?>
@@ -54,7 +49,7 @@
 
                                 </a></li>
                                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); if ($__empty_1): ?>
-                                <li> Nenhuma Categoria </li>
+                    
                                 <?php endif; ?>
                     
                      

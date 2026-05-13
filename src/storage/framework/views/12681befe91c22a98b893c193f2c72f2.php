@@ -1,0 +1,1 @@
+<h1> DASHBOARD </h1><?php /**PATH /var/www/html/resources/views/admin/dash/dashboard.blade.php ENDPATH**/ ?>

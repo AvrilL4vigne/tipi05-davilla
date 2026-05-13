@@ -27,9 +27,7 @@
                                 <a href="{{ route('cardapio') }}">Cardapio</a>
                             </li>
 
-                            <li class="{{ Route::is('recipes') ? 'current' : '' }}">
-                                <a href="{{ route('recipes') }}">Receitas</a>
-                            </li>
+                       
                         </ul>
 
                         <ul class="navigation menu-right clearfix">
@@ -42,10 +40,7 @@
                                 </ul>
                             </li>
 
-                            <li class="{{ Route::is('pricing') ? 'current' : '' }}">
-                                <a href="{{ route('pricing') }}">Preços</a>
-                            </li>
-
+                     
 
                          
                                 @forelse($lista as $linha)
@@ -54,7 +49,7 @@
 
                                 </a></li>
                                 @Empty
-                                <li> Nenhuma Categoria </li>
+                    
                                 @endforelse
                     
                      

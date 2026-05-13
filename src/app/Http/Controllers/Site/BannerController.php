@@ -1,12 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Site;
+
+use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
-use App\Models\Banner; 
-use App\Models\Categoria; // Importe o model de Categoria
-use App\Models\Produto;   // Importe o model de Produto
-use Illuminate\Support\Facades\DB; 
+use App\Models\Banner;
+use App\Models\Categoria; 
+use App\Models\Produto;
+use Illuminate\Support\Facades\DB;
 
 class BannerController extends Controller
 {
@@ -17,7 +19,7 @@ class BannerController extends Controller
             ->orderBy('ordem_banner', 'asc')
             ->get();
 
-        $filtroCategoria = Categoria::all(); 
+        $filtroCategoria = Categoria::all();
 
         $listaProduto = Produto::all();
 
