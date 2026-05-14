@@ -1,6 +1,6 @@
+@extends('layout.admin')
 
-
-<?php $__env->startSection('content'); ?>
+@section('content')
 
 <!--begin::App Content Header-->
 <div class="app-content-header">
@@ -169,5 +169,4 @@
 </div>
 <!--end::App Content-->
 
-<?php $__env->stopSection(); ?>
-<?php echo $__env->make('layout.admin', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH /var/www/html/resources/views/admin/dash/dashboard.blade.php ENDPATH**/ ?>
+@endsection

@@ -23,6 +23,6 @@ class BannerController extends Controller
 
         $listaProduto = Produto::all();
 
-        return view('site.home.home', compact('banners', 'filtroCategoria', 'listaProduto'));
+       return view('site.home.home', compact('banners', 'filtroCategoria', 'listaProduto'));
     }
 }

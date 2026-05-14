@@ -1,5 +1,6 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
 
 // Importação de TODOS os seus Controllers
@@ -11,6 +12,7 @@ use App\Http\Controllers\Site\BannerController;
 
 
 use App\Http\Controllers\admin\DashController;
+use App\Http\Controllers\admin\CategoriaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -46,4 +48,12 @@ Route::prefix('admin')->name('admin.')->group(function(){
 
    Route::get('/', [DashController::class, 'index'])->name('dash');
 
+
+
+   Route::get('/categorias', [CategoriaController::class, 'index'])->name('categoria.index');
+
 });
+
+
+
+  
